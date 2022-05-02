@@ -1,2 +1,2 @@
-##NEAR Developer Course || PRACTICE ONE 
+## NEAR Developer Course || PRACTICE ONE 
  

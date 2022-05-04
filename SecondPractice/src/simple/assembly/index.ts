@@ -25,3 +25,14 @@ export function write(key: string, value: string): string {
 function storageReport(): string {
   return `storage [ ${Context.storageUsage} bytes ]`
 }
+
+export function whatsYourName(): string {
+  return `My name is ${Context.contractName}
+  I received a call from ${Context.predecessor}
+  The call was initiated (Originally signed and sent) by ${Context.sender}`
+}
+
+export function showMeTheMoney() : string{
+  return `I just received ${Context.attachedDeposit} attached to this call
+          and now my balance is ${Context.accountBalance}`
+}
